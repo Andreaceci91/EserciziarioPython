@@ -51,7 +51,7 @@ def es7(tree,insieme,k):
             print("length",len(item.f))
             print("maggiore")
             
-            count = 0
+            #count = 0
             
             for el1 in item.f:
                 print(el1.id)
@@ -59,11 +59,8 @@ def es7(tree,insieme,k):
                 for i in insieme:
                     print(el1.id," - ",i)
                     
-                    if el1.id == i:
-                        count += 1
-                    
-            if count == k:
-                print("Trovato")
+
+            print("***************")
 
         es7(item,insieme,k)
 
